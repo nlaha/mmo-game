@@ -2144,16 +2144,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mmo-game"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy_fly_camera",
- "rand 0.8.3",
- "simdnoise",
-]
-
-[[package]]
 name = "naga"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3533,6 +3523,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5d129932f4644ac2396cb456385cbf9e63b5b30c6e8dc4820bdca4eb082037a5"
 dependencies = [
  "winapi 0.3.9",
+]
+
+[[package]]
+name = "world-gen-rs"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy_fly_camera",
+ "rand 0.8.3",
+ "simdnoise",
 ]
 
 [[package]]
