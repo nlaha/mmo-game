@@ -1,0 +1,13 @@
+[package]
+name = "mmo-game"
+version = "0.1.0"
+authors = ["BuildTools <nlaha@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.4.0"
+bevy_fly_camera = "0.6.0"
+simdnoise = "3.1.6"
+rand = "0.8.1"
